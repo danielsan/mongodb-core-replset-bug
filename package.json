@@ -1,0 +1,26 @@
+{
+  "name": "mongodb-core-replset-bug",
+  "version": "2.0.0",
+  "description": "mongodb-core-replset-bug on version 2.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielsan/mongodb-core-replset-bug.git"
+  },
+  "keywords": [
+    "mongodb"
+  ],
+  "author": "Daniel Santana",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/danielsan/mongodb-core-replset-bug/issues"
+  },
+  "homepage": "https://github.com/danielsan/mongodb-core-replset-bug#readme",
+  "dependencies": {
+    "mongodb-core": "^2.0.3"
+  }
+}
