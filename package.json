@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/danielsan/mongodb-core-replset-bug#readme",
   "dependencies": {
-    "mongodb-core": "^2.0.3"
+    "mongodb-core": "2.0.3"
   }
 }
