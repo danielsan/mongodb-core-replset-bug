@@ -13,7 +13,7 @@ for N in {0,1,2};do mongod --port 3000$N --dbpath /tmp/db$N --replSet rsSample -
 #### Configure a ReplicaSet with those 3 instances
 ```bash
 #!/bin/bash
-mongo --port 30000 -e "rs.initiate();"
+mongo --port 30000 --eval "rs.initiate();"
 mongo --port 30000 --eval "rs.add('$HOSTNAME:30001')"
 mongo --port 30000 --eval "rs.add('$HOSTNAME:30002')"
 ```
